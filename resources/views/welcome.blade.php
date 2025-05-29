@@ -127,11 +127,6 @@
                                 <a href="{{ route('login') }}" class="btn btn-light btn-hero me-3">
                                     <i class="fas fa-sign-in-alt me-2"></i>Masuk
                                 </a>
-                                @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="btn btn-outline-light btn-hero">
-                                        <i class="fas fa-user-plus me-2"></i>Daftar
-                                    </a>
-                                @endif
                             @endauth
                         </div>
                     @endif

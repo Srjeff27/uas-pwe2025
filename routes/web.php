@@ -9,7 +9,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 // Protected routes that require authentication
 Route::middleware(['auth'])->group(function () {

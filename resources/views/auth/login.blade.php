@@ -63,13 +63,6 @@
                         <button type="submit" class="btn btn-primary w-100 mb-3">
                             <i class="fas fa-sign-in-alt me-2"></i>Masuk
                         </button>
-
-                        @if (Route::has('register'))
-                            <p class="text-center mb-0">
-                                Belum punya akun? 
-                                <a href="{{ route('register') }}" class="text-primary text-decoration-none">Daftar di sini</a>
-                            </p>
-                        @endif
                     </form>
                 </div>
             </div>
